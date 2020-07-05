@@ -7,6 +7,7 @@
     "email": "pranavkp.me@outlook.com",
     "url": "https://devenv.now.sh"
   },
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/pranavp10/devenv.now.sh.git"
