@@ -1,16 +1,17 @@
-import {
-  Link as ChakraLink,
-  Text,
-  Code,
-  Icon,
-  List,
-  ListIcon,
-  ListItem,
-} from '@chakra-ui/core'
-
+import { Box, Flex } from '@chakra-ui/core';
+import Container from '../components/Container';
+import Hero from '../components/Hero';
 
 const Index = () => (
-  <h1>Hello</h1>
-)
+  <>
+    <Box as="main">
+      <Flex justifyContent="center" flexDirection="column" bg="#FBFBFB">
+        <Container>
+          <Hero />
+        </Container>
+      </Flex>
+    </Box>
+  </>
+);
 
-export default Index
+export default Index;
