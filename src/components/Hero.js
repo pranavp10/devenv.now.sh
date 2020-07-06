@@ -1,5 +1,4 @@
-import { Text, Heading, Stack, Box, Flex, Image } from '@chakra-ui/core';
-import { DiUbuntu, DiTerminal, DiChrome, DiGit } from 'react-icons/di';
+import { Heading, Stack, Box, Image } from '@chakra-ui/core';
 
 const Hero = () => (
   <Stack
@@ -31,12 +30,12 @@ const Hero = () => (
           </Box>
         </Box>
       </Heading>
-      <Text color="gray.700" mb={4} fontSize="lg">
+      <Box color="gray.700" mb={4} fontSize="lg">
         Increase the Development{' '}
         <Box display="inline" backgroundColor="#49fcd4">
           Productivity by 10x
         </Box>
-      </Text>
+      </Box>
     </Box>
     <Box mt={-10}>
       <Image src="env.png" alt="Env logo" />

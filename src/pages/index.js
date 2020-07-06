@@ -1,6 +1,7 @@
 import { Box, Flex } from '@chakra-ui/core';
 import Container from '../components/Container';
 import Hero from '../components/Hero';
+import Why from '../components/Why';
 
 const Index = () => (
   <>
@@ -9,6 +10,9 @@ const Index = () => (
         <Container>
           <Hero />
         </Container>
+      </Flex>
+      <Flex justifyContent="center" flexDirection="column">
+        <Why />
       </Flex>
     </Box>
   </>
