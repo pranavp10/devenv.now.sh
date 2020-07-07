@@ -4,7 +4,7 @@ const Hero = () => (
   <Stack
     as="section"
     spacing={8}
-    maxWidth="800px"
+    maxWidth="1000px"
     flexDirection={['column', 'column', 'row', 'row']}
     justifyContent="space-between"
     alignItems="center"

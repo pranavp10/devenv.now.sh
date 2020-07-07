@@ -5,12 +5,12 @@ import { DiTerminal } from 'react-icons/di';
 
 const Container = ({ children }) => (
   <>
-    <Box bg="#FBFBFB">
+    <Box bg="#49fcd4">
       <Flex
         flexDirection="row"
         justifyContent="space-between"
         alignItems="center"
-        maxWidth="800px"
+        maxWidth="1000px"
         width="100%"
         as="nav"
         p={8}

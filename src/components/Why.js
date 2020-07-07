@@ -5,7 +5,7 @@ const Hero = () => (
   <Stack
     as="section"
     spacing={8}
-    maxWidth="800px"
+    maxWidth="1000px"
     flexDirection={['column', 'column', 'row', 'row']}
     justifyContent="space-between"
     alignItems="center"
@@ -21,7 +21,7 @@ const Hero = () => (
         <br />
         Dev .env ?
       </Heading>
-      <Box color="gray.700" mb={4} fontSize="lg" maxW={350}>
+      <Box color="gray.700" mb={4} fontSize="lg" maxW={400}>
         <Box display="inline" backgroundColor="#49fcd4">
           Dev.env
         </Box>{' '}
@@ -56,7 +56,7 @@ const Hero = () => (
           <Heading size="xl" fontWeight="extrabold">
             Motivation
           </Heading>
-          <Box color="gray.700" mb={4} fontSize="lg" maxW={300}>
+          <Box color="gray.700" mb={4} fontSize="lg" maxW={400}>
             it took me a long way to figure things out so thought of sharing it
             so that it will be easy for the other, rather then search get every
             thing at one place
@@ -64,14 +64,14 @@ const Hero = () => (
           <Heading size="xl" fontWeight="extrabold">
             7 Steps
           </Heading>
-          <Box color="gray.700" mb={4} fontSize="lg" maxW={300}>
+          <Box color="gray.700" mb={4} fontSize="lg" maxW={400}>
             It take only 7 steps to Set the completely the Development
             environment
           </Box>
           <Heading size="xl" fontWeight="extrabold">
             ~3.2 Hours
           </Heading>
-          <Box color="gray.700" mb={4} fontSize="lg" maxW={300}>
+          <Box color="gray.700" mb={4} fontSize="lg" maxW={400}>
             The time is approximate it may be more or less based on the
             individual System and speed of the internet
           </Box>
