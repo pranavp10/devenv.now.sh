@@ -51,7 +51,7 @@ const UbuntuInstallation = () => (
             <Box bg="#ffff" p={2} rounded={25} shadow="xl">
               <Box as={DiUbuntu} size={125} color="red.400" />
             </Box>
-            <Icon name="drag-handle" size="24px" m={5} />
+            <Icon name="drag-handle" size="24px" m={5} color="gray.900" />
             <Box bg="#ffff" p={2} rounded={25} shadow="xl">
               <Box as={GrVmware} size={125} color="blue.400" p={4} />
             </Box>
@@ -59,7 +59,7 @@ const UbuntuInstallation = () => (
         </Stack>
       </Box>
       <Box maxW={400}>
-        <Heading>My Thoughts</Heading>
+        <Heading color="gray.900">My Thoughts</Heading>
         <List styleType="disc">
           <Box color="gray.700" mb={4} fontSize="lg" maxW={400}>
             <ListItem>
@@ -103,7 +103,7 @@ const UbuntuInstallation = () => (
         </List>
         <Stack isInline>
           <Box as={BsBoxArrowInDown} size="24px" color="gray.800" />
-          <Heading ml={1} size="md" fontWeight="extrabold">
+          <Heading ml={1} size="md" fontWeight="extrabold" color="gray.900">
             Files Needed
           </Heading>
         </Stack>
@@ -133,7 +133,7 @@ const UbuntuInstallation = () => (
         </List>
         <Stack isInline>
           <Box as={BsCameraVideo} size="24px" color="gray.800" />
-          <Heading ml={1} size="md" fontWeight="extrabold">
+          <Heading ml={1} size="md" fontWeight="extrabold" color="gray.900">
             How to install Ubuntu on Virtual Machine
           </Heading>
         </Stack>
@@ -145,6 +145,7 @@ const UbuntuInstallation = () => (
               target="_blank"
               rel="noopener noreferrer"
               backgroundColor="#49fcd4"
+              color="gray.900"
             >
               Installation
             </Link>
@@ -155,6 +156,7 @@ const UbuntuInstallation = () => (
               href="https://www.youtube.com/watch?v=QfCdx6wWkf8"
               target="_blank"
               rel="noopener noreferrer"
+              color="gray.900"
               backgroundColor="#49fcd4"
             >
               Issues & Fix

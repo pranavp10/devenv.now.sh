@@ -16,7 +16,7 @@ const Hero = () => (
     mx="auto"
   >
     <Box>
-      <Heading as="h1" size="2xl" lineHeight={1}>
+      <Heading as="h1" size="2xl" lineHeight={1} color="gray.900">
         Why
         <br />
         Dev .env ?
@@ -32,19 +32,19 @@ const Hero = () => (
       <Stack mt={[0, 0, 8]} mb={[0, 0, 8]}>
         <Stack isInline>
           <Icon name="check-circle" size="24px" color="green.400" />
-          <Heading ml={1} size="md" fontWeight="extrabold">
+          <Heading ml={1} size="md" fontWeight="extrabold" color="gray.900">
             Less Keystrokes
           </Heading>
         </Stack>
         <Stack isInline>
           <Icon name="check-circle" size="24px" color="green.400" />
-          <Heading ml={1} size="md" fontWeight="extrabold">
+          <Heading ml={1} size="md" fontWeight="extrabold" color="gray.900">
             Backup & Move
           </Heading>
         </Stack>
         <Stack isInline>
           <Icon name="check-circle" size="24px" color="green.400" />
-          <Heading ml={1} size="md" fontWeight="extrabold">
+          <Heading ml={1} size="md" fontWeight="extrabold" color="gray.900">
             Pro Dev
           </Heading>
         </Stack>
@@ -53,7 +53,7 @@ const Hero = () => (
     <Box>
       <Stack>
         <Box>
-          <Heading size="xl" fontWeight="extrabold">
+          <Heading size="xl" fontWeight="extrabold" color="gray.900">
             Motivation
           </Heading>
           <Box color="gray.700" mb={4} fontSize="lg" maxW={400}>
@@ -61,14 +61,14 @@ const Hero = () => (
             so that it will be easy for the other, rather then search get every
             thing at one place
           </Box>
-          <Heading size="xl" fontWeight="extrabold">
+          <Heading size="xl" fontWeight="extrabold" color="gray.900">
             7 Steps
           </Heading>
           <Box color="gray.700" mb={4} fontSize="lg" maxW={400}>
             It take only 7 steps to Set the completely the Development
             environment
           </Box>
-          <Heading size="xl" fontWeight="extrabold">
+          <Heading size="xl" fontWeight="extrabold" color="gray.900">
             ~3.2 Hours
           </Heading>
           <Box color="gray.700" mb={4} fontSize="lg" maxW={400}>

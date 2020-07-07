@@ -21,6 +21,7 @@ const Hero = () => (
         as="h1"
         size="2xl"
         fontWeight="bold"
+        color="gray.900"
       >
         Development
         <Box>
