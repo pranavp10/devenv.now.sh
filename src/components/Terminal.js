@@ -37,7 +37,6 @@ const Hero = () => (
           justifyContent="space-between"
           alignItems="center"
           width="100%"
-          p={8}
           mt={[0, 0, 8]}
           mb={[0, 0, 8]}
           mx="auto"
