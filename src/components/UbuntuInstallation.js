@@ -134,7 +134,7 @@ const UbuntuInstallation = () => (
         <Stack isInline>
           <Box as={BsCameraVideo} size="24px" color="gray.800" />
           <Heading ml={1} size="md" fontWeight="extrabold" color="gray.900">
-            How to install Ubuntu on Virtual Machine
+            Install Ubuntu on Virtual Machine
           </Heading>
         </Stack>
         <List ml="35px">

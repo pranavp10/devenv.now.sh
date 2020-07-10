@@ -19,7 +19,7 @@ const Index = () => (
       <Flex justifyContent="center" flexDirection="column" bg="#FBFBFB">
         <UbuntuInstallation />
       </Flex>
-      <Flex justifyContent="center" flexDirection="column">
+      <Flex flexDirection="column">
         <Terminal />
       </Flex>
     </Box>
