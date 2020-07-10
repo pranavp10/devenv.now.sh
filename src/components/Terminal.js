@@ -47,7 +47,7 @@ const Hero = () => (
       </Box>
       <Box maxW={400}>
         <Heading color="gray.900">O My Terminaaal</Heading>
-        <List styleType="disc">
+        <List styleType="disc" color="gray.900">
           <ListItem>
             As I am using Ubuntu so I will be Using terminal a lot so I wanted
             the bash shell to customize
