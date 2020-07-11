@@ -64,22 +64,19 @@ const UbuntuInstallation = () => (
           <Box color="gray.700" mb={4} fontSize="lg" maxW={400}>
             <ListItem>
               I personally prefer ubuntu as a Linux{' '}
-              <Box display="inline" backgroundColor="#49fcd4">
-                <Link
-                  href="https://www.howtogeek.com/132624/htg-explains-whats-a-linux-distro-and-how-are-they-different/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Distro
-                </Link>
-              </Box>
+              <Link
+                href="https://www.howtogeek.com/132624/htg-explains-whats-a-linux-distro-and-how-are-they-different/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <b>Distro</b>
+              </Link>
               , The reason behind is no windows env variables 🤯, support all
-              tools etc. I wanted{' '}
-              <Box display="inline" backgroundColor="#49fcd4">
-                One Command Do Everything
-              </Box>
-              , yes Command line is not easy by one's you understand you will
-              never leave it.
+              tools etc.
+            </ListItem>
+            <ListItem>
+              I wanted <b>One Command Do Everything</b>, yes Command line is not
+              easy by one's you understand you will never leave it.
             </ListItem>
             <ListItem>
               Virtual Box is easy configure and features like backup, snapshot,
@@ -109,22 +106,22 @@ const UbuntuInstallation = () => (
         </Stack>
         <List ml="35px">
           <ListItem>
-            <ListIcon icon={BsArrowRight} color="gray.900" />
+            <ListIcon icon="link" color="gray.900" />
             <Link
-              color="red.500"
               href="https://ubuntu.com/download/desktop/thank-you?version=20.04&architecture=amd64"
               target="_blank"
               rel="noopener noreferrer"
+              color="gray.900"
             >
-              Ubuntu IOS
+              Ubuntu ISO
             </Link>
           </ListItem>
           <ListItem>
-            <ListIcon icon={BsArrowRight} color="gray.900" />
+            <ListIcon icon="link" color="gray.900" />
             <Link
-              color="blue.500"
               href="https://download.virtualbox.org/virtualbox/6.1.10/VirtualBox-6.1.10-138449-Win.exe"
               target="_blank"
+              color="gray.900"
               rel="noopener noreferrer"
             >
               Virtual Box
@@ -139,25 +136,23 @@ const UbuntuInstallation = () => (
         </Stack>
         <List ml="35px">
           <ListItem>
-            <ListIcon icon={BsArrowRight} color="gray.500" />
+            <ListIcon icon="link" color="gray.900" />
             <Link
               href="https://www.youtube.com/watch?v=o00ZCTaVsCs"
               target="_blank"
               rel="noopener noreferrer"
-              backgroundColor="#49fcd4"
               color="gray.900"
             >
               Installation
             </Link>
           </ListItem>
           <ListItem>
-            <ListIcon icon={BsArrowRight} color="gray.500" />
+            <ListIcon icon="link" color="gray.900" />
             <Link
               href="https://www.youtube.com/watch?v=QfCdx6wWkf8"
               target="_blank"
               rel="noopener noreferrer"
               color="gray.900"
-              backgroundColor="#49fcd4"
             >
               Issues & Fix
             </Link>
