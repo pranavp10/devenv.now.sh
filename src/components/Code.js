@@ -34,7 +34,7 @@ const Code = () => (
           justifyContent="space-between"
           alignItems="center"
           width="100%"
-          p={8}
+          p={[0, 0, 8, 8]}
           mt={[0, 0, 8]}
           mb={[0, 0, 8]}
           mx="auto"

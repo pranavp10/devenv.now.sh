@@ -31,19 +31,19 @@ const Hero = () => (
       </Box>
       <Stack mt={[0, 0, 8]} mb={[0, 0, 8]}>
         <Stack isInline>
-          <Icon name="check-circle" size="24px" color="green.400" />
+          <Icon name="check-circle" size="24px" color="#00BFA5" />
           <Heading ml={1} size="md" fontWeight="extrabold" color="gray.900">
             Less Keystrokes
           </Heading>
         </Stack>
         <Stack isInline>
-          <Icon name="check-circle" size="24px" color="green.400" />
+          <Icon name="check-circle" size="24px" color="#00BFA5" />
           <Heading ml={1} size="md" fontWeight="extrabold" color="gray.900">
             Backup & Move
           </Heading>
         </Stack>
         <Stack isInline>
-          <Icon name="check-circle" size="24px" color="green.400" />
+          <Icon name="check-circle" size="24px" color="#00BFA5" />
           <Heading ml={1} size="md" fontWeight="extrabold" color="gray.900">
             Pro Dev
           </Heading>
