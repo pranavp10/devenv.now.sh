@@ -86,27 +86,25 @@ const WhoAmI = () => (
         </Stack>
       </Stack>
     </Box>
-    <Box>
-      <Heading color="gray" mb={5}>
-        Meet The Author
-      </Heading>
-      <PseudoBox
-        color="gray.900"
-        rounded={15}
-        boxShadow="xl"
-        textAlign="center"
-        role="group"
-      >
-        <Avatar size="xl" name="Pranav Patel" src="" m={5} />
-        <Heading>Pranav Patel</Heading>
-        <Text color="gray.500" mb={5}>
-          Software Engineer
-        </Text>
-        <Flex justifyContent="center">
-          <Box as={AiFillLinkedin} size="32px" color="blue.400" m={2} />
-          <Box as={AiOutlineTwitter} size="32px" color="green.400" m={2} />
-        </Flex>
-      </PseudoBox>
+    <Box textAlign="center">
+      <Box>
+        <Avatar size="xl" name="Pranav Patel" src="author.jpeg" m={5} />
+        <Text>Meet The Author</Text>
+      </Box>
+      <Heading>Pranav Patel</Heading>
+      <Text color="gray.500" mb={5}>
+        Software Engineer
+      </Text>
+      <Text color="gray.500" mb={5} maxW={300} textAlign="left">
+        Hello! I'm Pranav, a software engineer by passion, love solving problem
+        which requires thinking in terms of dynamic programing and hakerRank
+        pattern problems Most loved thing in js is the closer property, figuring
+        out life purpose
+      </Text>
+      <Flex justifyContent="center">
+        <Box as={AiFillLinkedin} size="32px" color="blue.400" m={2} />
+        <Box as={AiOutlineTwitter} size="32px" color="green.400" m={2} />
+      </Flex>
     </Box>
   </Stack>
 );
