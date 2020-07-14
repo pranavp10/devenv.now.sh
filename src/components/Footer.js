@@ -8,7 +8,7 @@ const Footer = () => (
       spacing={8}
       maxWidth="650px"
       flexDirection={['column', 'column', 'row', 'row']}
-      justifyContent="space-between"
+      justifyContent={['center', 'center', 'space-between', 'space-between']}
       width="100%"
       mb={[0, 0, 8]}
       mx="auto"
@@ -17,7 +17,7 @@ const Footer = () => (
         <b>No &copy; copyright issues</b>
       </Text>
       <Stack isInline>
-        <Box as={AiFillGithub} size="24px" color="blue.400" />
+        <Box as={AiFillGithub} size="24px" color="gray.900" />
       </Stack>
     </Stack>
   </>
