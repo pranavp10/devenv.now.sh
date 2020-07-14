@@ -14,13 +14,13 @@ const Index = () => (
   <>
     <NextSeo
       title="Developers environment"
-      description="Dev.env will help you to setup the Development environment which will keep all the person Directory and Development Directory different so that you can work fearlessly and feel like a real Developer"
+      description="Setup Development environment which will keep all the person and Development Directory different so that you can work fearlessly and feel like a real Developer"
       canonical="https://devenv.now.sh/"
       openGraph={{
         url: 'https://devenv.now.sh/',
         title: 'Developers environment',
         description:
-          'Dev.env will help you to setup the Development environment which will keep all the person Directory and Development Directory different so that you can work fearlessly and feel like a real Developer',
+          'Setup Development environment which will keep all the person and Development Directory different so that you can work fearlessly and feel like a real Developer',
         images: [
           {
             url: 'https://devenv.now.sh/shareSEO.png',
