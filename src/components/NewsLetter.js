@@ -24,15 +24,20 @@ const NewsLetter = () => (
     mx="auto"
   >
     <Box border="1px" rounded="md" borderColor="gray.200" p={5} bg="#dbfff9">
-      <Heading size="md" m={2}>
+      <Heading size="md" m={2} color="gray.900">
         Subscribe to the newsletter
       </Heading>
-      <Text m={2}>
+      <Text m={2} color="gray.900">
         Get emails from me about web development, tech, and early access to new
         articles.
       </Text>
-      <InputGroup size="md">
-        <Input pr="4.5rem" type="email" placeholder="sundar@google.com" />
+      <InputGroup size="md" color="gray.900">
+        <Input
+          pr="4.5rem"
+          type="email"
+          placeholder="sundar@google.com"
+          color="gray.900"
+        />
         <InputRightElement width="6rem">
           <Button h="1.75rem" size="sm" m={1}>
             Subscribe

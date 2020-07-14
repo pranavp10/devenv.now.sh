@@ -9,7 +9,7 @@ const GlobalStyle = ({ children }) => (
       styles={css`
         ::selection {
           background-color: #49fcd4;
-          color: #fefefe;
+          color: #000000;
         }
         html {
           min-width: 360px;

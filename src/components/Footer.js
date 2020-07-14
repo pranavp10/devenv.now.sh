@@ -13,7 +13,7 @@ const Footer = () => (
       mb={[0, 0, 8]}
       mx="auto"
     >
-      <Text>
+      <Text color="gray.900">
         <b>No &copy; copyright issues</b>
       </Text>
       <Stack isInline>

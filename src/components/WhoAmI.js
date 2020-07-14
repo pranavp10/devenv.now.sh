@@ -6,6 +6,7 @@ import {
   Text,
   PseudoBox,
   Flex,
+  Link,
 } from '@chakra-ui/core';
 import { AiFillLinkedin, AiOutlineTwitter } from 'react-icons/ai';
 import {
@@ -28,16 +29,17 @@ const WhoAmI = () => (
     mx="auto"
   >
     <Box>
-      <Heading as="h1" size="2xl" lineHeight={1} color="gray.900">
+      <Heading as="h1" size="2xl" lineHeight={1} color="gray.900" mb={5}>
         Who Is This
         <br />
         For ?
       </Heading>
       <Box color="gray.700" mb={4} fontSize="lg" maxW={400}>
-        <Box display="inline" backgroundColor="#49fcd4">
-          Dev.env
-        </Box>{' '}
-        This is for web developers and Software Engineer
+        If you are still not sure that its for you are not{' '}
+        <Link href="mailto:pranavkp.me@outlook.com">
+          <b>email me</b>
+        </Link>{' '}
+        and ask
       </Box>
       <Stack mt={[0, 0, 8]} mb={[0, 0, 8]}>
         <Stack isInline>
@@ -91,14 +93,13 @@ const WhoAmI = () => (
         <Avatar size="xl" name="Pranav Patel" src="author.jpeg" m={5} />
         <Text>Meet The Author</Text>
       </Box>
-      <Heading>Pranav Patel</Heading>
+      <Heading color="gray.900">Pranav Patel</Heading>
       <Text color="gray.500" mb={5}>
         Software Engineer
       </Text>
-      <Text color="gray.500" mb={5} maxW={300} textAlign="left">
-        Hello! I'm Pranav, a software engineer by passion, love solving problem
-        which requires thinking in terms of dynamic programing and hakerRank
-        pattern problems Most loved thing in js is the closer property, figuring
+      <Text color="gray.500" mb={5} maxW={300}>
+        JavaScript, React, Design Systems, a software engineer by passion, love
+        solving problem. Most loved thing in js is the closer property, figuring
         out life purpose
       </Text>
       <Flex justifyContent="center">
