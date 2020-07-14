@@ -7,8 +7,8 @@ const Footer = () => (
       as="section"
       spacing={8}
       maxWidth="650px"
-      flexDirection={['column', 'column', 'row', 'row']}
-      justifyContent={['center', 'center', 'space-between', 'space-between']}
+      flexDirection="row"
+      justifyContent="space-between"
       width="100%"
       mb={[0, 0, 8]}
       mx="auto"
