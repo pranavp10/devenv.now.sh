@@ -50,13 +50,13 @@ const Code = () => (
         </Heading>
         <List styleType="disc" color="gray.900">
           <ListItem>
-            I Use VS Code as an editor because its light weight, it becomes heavy
-            when you install vscode extensions,support for different fonts and
-            many more
+            I Use VS Code as an editor because its light weight, it becomes
+            heavy when you install vscode extensions, support for different
+            fonts and many more
           </ListItem>
           <ListItem>
-            I am very particular about the extensions, so I always do some research
-            before installing so that it will consume less RAM
+            I am very particular about the extensions, so I always do some
+            research before installing so that it will consume less RAM
           </ListItem>
           <ListItem>
             Take a look at my{' '}
@@ -67,8 +67,8 @@ const Code = () => (
             >
               <b>gallery</b>
             </Link>{' '}
-            for more images, how it looks and feels to make our life more easier and
-            focus on code rather than unwanted things
+            for more images, how it looks and feels to make our life more easier
+            and focus on code rather than unwanted things
           </ListItem>
         </List>
         <Stack isInline mt={3}>
