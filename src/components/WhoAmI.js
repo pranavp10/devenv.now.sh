@@ -35,7 +35,7 @@ const WhoAmI = () => (
         For ?
       </Heading>
       <Box color="gray.700" mb={4} fontSize="lg" maxW={400}>
-        If you are still not sure that its for you are not{' '}
+        If you are still not sure that its for you or not, then {' '}
         <Link href="mailto:pranavkp.me@outlook.com">
           <b>email me</b>
         </Link>{' '}
