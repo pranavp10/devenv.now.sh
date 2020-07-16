@@ -1,8 +1,7 @@
 import React from 'react';
 import NextLink from 'next/link';
-import { Flex, Box, Collapse } from '@chakra-ui/core';
+import { Flex, Box } from '@chakra-ui/core';
 import { DiTerminal } from 'react-icons/di';
-import ColorModeSwitch from './ColorModeSwitch';
 
 const Container = ({ children }) => (
   <>
@@ -19,12 +18,7 @@ const Container = ({ children }) => (
         mb={[0, 0, 8]}
         mx="auto"
       >
-        <NextLink href="/" passHref>
-          <Box as="a">
-            <Box as={DiTerminal} size="42px" color="gray.900" />
-          </Box>
-        </NextLink>
-        {/* <ColorModeSwitch /> */}
+        <Box as={DiTerminal} size="42px" color="gray.900" />
       </Flex>
     </Box>
     {children}

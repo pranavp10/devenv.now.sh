@@ -60,8 +60,8 @@ const UbuntuInstallation = () => (
       </Box>
       <Box maxW={400}>
         <Heading color="gray.900">My Thoughts</Heading>
-        <List styleType="disc">
-          <Box color="gray.700" mb={4} fontSize="lg" maxW={400}>
+        <Box color="gray.700" mb={4} fontSize="lg" maxW={400}>
+          <List styleType="disc">
             <ListItem>
               I personally prefer ubuntu as a Linux{' '}
               <Link
@@ -96,8 +96,8 @@ const UbuntuInstallation = () => (
               <Box as={DiUbuntu} size="24px" color="red.400" display="inline" />
               )
             </ListItem>
-          </Box>
-        </List>
+          </List>
+        </Box>
         <Stack isInline>
           <Box as={BsBoxArrowInDown} size="24px" color="gray.800" />
           <Heading ml={1} size="md" fontWeight="extrabold" color="gray.900">
