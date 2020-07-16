@@ -88,7 +88,7 @@ const Hero = () => (
             ~3.2 Hours
           </Heading>
           <Box color="gray.700" mb={4} fontSize="lg" maxW={400}>
-            The time reuired to set up the environment is approximately 3.2 hours, more or less based on the
+            The time required to set up the environment is approximately 3.2 hours, more or less based on the
             individual's system and speed of the internet.
           </Box>
         </Box>
