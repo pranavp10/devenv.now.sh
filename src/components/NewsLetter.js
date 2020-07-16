@@ -80,7 +80,7 @@ const NewsLetter = () => {
             aria-label="Email for newsletter"
             pr="4.5rem"
             type="email"
-            placeholder="sundar@google.com"
+            placeholder="sundar@abc.xyz"
             color="gray.900"
             ref={inputEl}
           />
