@@ -29,15 +29,15 @@ const Hero = () => (
       mx="auto"
     >
       <Box maxW={400}>
-        <Heading color="gray.900">O My Terminaaal</Heading>
+        <Heading color="gray.900">O My Terminal</Heading>
         <List styleType="disc" color="gray.900">
           <ListItem>
-            As I am using Ubuntu so I will be Using terminal a lot so I wanted
-            the bash shell to customize
+            Since I am using Ubuntu, I will be using terminal a lot. So I wanted
+            the bash shell to be customized.
           </ListItem>
           <ListItem>
-            ( because I am time concern so I wanted time on my terminal and got
-            more ) to make typing handy and easy to work around so I came across{' '}
+            ( because I am concerned about time, I wanted time to be reflected on my terminal and got
+            many more features ) to make typing fast and easy, I came across{' '}
             <Link
               href="https://ohmyz.sh/"
               target="_blank"
@@ -45,10 +45,10 @@ const Hero = () => (
             >
               <b>oh my zsh</b>
             </Link>{' '}
-            to customize the bash shell then
+            to customize the bash shell and change it according to my requirement
           </ListItem>
           <ListItem>
-            I customize it by reading some blog and watching some videos take a
+            I customized it by reading some blogs and watching some videos. Take a
             look at my{' '}
             <Link
               href="https://github.com/pranavp10/devenv.now.sh"
