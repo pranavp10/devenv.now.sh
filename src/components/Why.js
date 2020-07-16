@@ -26,7 +26,7 @@ const Hero = () => (
           Dev.env
         </Box>{' '}
         will help you to setup the Development environment which will keep all
-        the person Directory and Development Directory different so that you can
+        the personl Directory and Development Directory different so that you can
         work fearlessly and feel like a real Developer
       </Box>
       <Stack mt={[0, 0, 8]} mb={[0, 0, 8]}>
