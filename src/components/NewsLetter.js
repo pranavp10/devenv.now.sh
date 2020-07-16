@@ -33,9 +33,10 @@ const NewsLetter = () => {
     const { error } = await res.json();
 
     if (error) {
+      const { title, description } = error;
       toast({
-        title: 'An error occurred.',
-        description: error,
+        title,
+        description,
         status: 'error',
         duration: 9000,
         isClosable: true,

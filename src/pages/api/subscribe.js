@@ -22,15 +22,22 @@ export default async (req, res) => {
       {
         body: JSON.stringify(data),
         headers: {
-          Authorization: `apikey ${API_KEY}`,
+          Authorization: `Token ${API_KEY}`,
           'Content-Type': 'application/json',
         },
         method: 'POST',
       }
     );
     if (response.status >= 400) {
+      const text = await response.text();
+      const responseData = JSON.parse(text);
+      const { title, detail } = responseData;
+      const description = detail.split('Use')[0];
       return res.status(400).json({
-        error: `There was an error subscribing to the newsletter. Shoot me an email at [pranavkp.me@outlook.com] and I'll add you to the list.`,
+        error: {
+          title,
+          description,
+        },
       });
     }
 
