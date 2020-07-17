@@ -1,13 +1,4 @@
-import {
-  Stack,
-  Heading,
-  Box,
-  Avatar,
-  Text,
-  PseudoBox,
-  Flex,
-  Link,
-} from '@chakra-ui/core';
+import { Stack, Heading, Box, Avatar, Text, Flex, Link } from '@chakra-ui/core';
 import { AiFillLinkedin, AiOutlineTwitter } from 'react-icons/ai';
 import {
   IoMdCheckmarkCircleOutline,
@@ -98,9 +89,9 @@ const WhoAmI = () => (
         Software Engineer
       </Text>
       <Text color="gray.500" mb={5} maxW={300}>
-        JavaScript, React, Design Systems, a software engineer by passion, love
-        solving problem. Most loved thing in js is the closer property, figuring
-        out life purpose
+        JavaScript, React, Design Systems, a software engineer by passion, loves
+        solving problems. Most loved thing in js is the closer property,
+        figuring out life's purpose
       </Text>
       <Flex justifyContent="center">
         <Link

@@ -71,12 +71,12 @@ const UbuntuInstallation = () => (
               >
                 <b>Distro</b>
               </Link>
-              , The reason behind it is there are no windows env variables,it
-              supports all tools etc.
+              , The reason behind it is that there are no windows env variables
+              setup,it supports all tools necessary things.
             </ListItem>
             <ListItem>
-              I wanted <b>One Command Do Everything</b>, yes Command line is not
-              easy by once you understand it you will never feel like switching.
+              I wanted <b>One Command Do Everything</b>, I know Command line is
+              not easy by once you understand it, you will never like switching.
             </ListItem>
             <ListItem>
               Virtual Box is easy to configure and there are features like

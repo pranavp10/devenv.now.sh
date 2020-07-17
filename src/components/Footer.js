@@ -11,6 +11,8 @@ const Footer = () => (
       justifyContent="space-between"
       width="100%"
       mb={[0, 0, 8]}
+      pl={[8, 8, 0, 0]}
+      pr={[8, 8, 0, 0]}
       mx="auto"
     >
       <Text color="gray.900">

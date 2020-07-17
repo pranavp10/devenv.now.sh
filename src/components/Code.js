@@ -50,13 +50,12 @@ const Code = () => (
         </Heading>
         <List styleType="disc" color="gray.900">
           <ListItem>
-            I Use VS Code as an editor because its light weight, it becomes
-            heavy when you install vscode extensions, support for different
-            fonts and many more
+            I Use VS Code as an editor as its light weight, as it uses plugin
+            system. Installing too many plugin will lead to RAM consumption
           </ListItem>
           <ListItem>
-            I am very particular about the extensions, so I always do some
-            research before installing so that it will consume less RAM
+            I am very particular about the extensions. I always do some research
+            before installing so that it will consume less RAM
           </ListItem>
           <ListItem>
             Take a look at my{' '}

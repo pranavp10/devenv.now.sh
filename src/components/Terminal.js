@@ -35,7 +35,7 @@ const Hero = () => (
           </ListItem>
           <ListItem>
             ( because I am concerned about time, I wanted time to be reflected
-            on my terminal and got many more features ) to make typing fast and
+            on my terminal and get many more features ) to make typing fast and
             easy, I came across{' '}
             <Link
               href="https://ohmyz.sh/"
@@ -45,7 +45,7 @@ const Hero = () => (
               <b>oh my zsh</b>
             </Link>{' '}
             to customize the bash shell and change it according to my
-            requirement
+            requirement.
           </ListItem>
           <ListItem>
             I customized it by reading some blogs and watching some videos. Take
