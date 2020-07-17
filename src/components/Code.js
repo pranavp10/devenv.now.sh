@@ -87,7 +87,8 @@ const Code = () => (
               color="gray.900"
             >
               visual studio code
-            </Link>
+            </Link>{' '}
+            <b>(Step 2)</b>
           </ListItem>
         </List>
       </Box>

@@ -114,7 +114,8 @@ const UbuntuInstallation = () => (
               color="gray.900"
             >
               Ubuntu ISO
-            </Link>
+            </Link>{' '}
+            <b>(Step 1)</b>
           </ListItem>
           <ListItem>
             <ListIcon icon="link" color="gray.900" />
@@ -125,7 +126,8 @@ const UbuntuInstallation = () => (
               rel="noopener noreferrer"
             >
               Virtual Box
-            </Link>
+            </Link>{' '}
+            <b>(Step 2)</b>
           </ListItem>
         </List>
         <Stack isInline>
@@ -144,7 +146,8 @@ const UbuntuInstallation = () => (
               color="gray.900"
             >
               Installation
-            </Link>
+            </Link>{' '}
+            <b>(Step 3)</b>
           </ListItem>
           <ListItem>
             <ListIcon icon="link" color="gray.900" />
@@ -155,7 +158,8 @@ const UbuntuInstallation = () => (
               color="gray.900"
             >
               Issues & Fix
-            </Link>
+            </Link>{' '}
+            <b>(Step 4)</b>
           </ListItem>
         </List>
       </Box>

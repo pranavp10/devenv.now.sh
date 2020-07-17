@@ -76,7 +76,8 @@ const Hero = () => (
               color="gray.900"
             >
               How to Install ZSH Shell
-            </Link>
+            </Link>{' '}
+            <b>(Step 5)</b>
           </ListItem>
           <ListItem>
             <ListIcon icon="link" color="gray.900" />
@@ -87,7 +88,8 @@ const Hero = () => (
               color="gray.900"
             >
               A beautiful terminal with Zsh
-            </Link>
+            </Link>{' '}
+            <b>(Step 6)</b>
           </ListItem>
         </List>
         <Stack isInline mt={3}>

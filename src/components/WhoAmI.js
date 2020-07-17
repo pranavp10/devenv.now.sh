@@ -103,8 +103,22 @@ const WhoAmI = () => (
         out life purpose
       </Text>
       <Flex justifyContent="center">
-        <Box as={AiFillLinkedin} size="32px" color="blue.400" m={2} />
-        <Box as={AiOutlineTwitter} size="32px" color="green.400" m={2} />
+        <Link
+          href="https://www.linkedin.com/in/pranav-p-241914183"
+          target="_blank"
+          color="gray.900"
+          rel="noopener noreferrer"
+        >
+          <Box as={AiFillLinkedin} size="32px" color="blue.400" m={2} />
+        </Link>
+        <Link
+          href="https://twitter.com/thatspranav"
+          target="_blank"
+          color="gray.900"
+          rel="noopener noreferrer"
+        >
+          <Box as={AiOutlineTwitter} size="32px" color="blue.400" m={2} />
+        </Link>
       </Flex>
     </Box>
   </Stack>

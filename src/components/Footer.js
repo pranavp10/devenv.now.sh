@@ -1,4 +1,4 @@
-import { Stack, Text, Flex, Box } from '@chakra-ui/core';
+import { Stack, Text, Link, Box } from '@chakra-ui/core';
 import { AiFillGithub } from 'react-icons/ai';
 
 const Footer = () => (
@@ -17,7 +17,14 @@ const Footer = () => (
         <b>No &copy; copyright issues</b>
       </Text>
       <Stack isInline>
-        <Box as={AiFillGithub} size="24px" color="gray.900" />
+        <Link
+          href="https://github.com/pranavp10/devenv.now.sh"
+          target="_blank"
+          color="gray.900"
+          rel="noopener noreferrer"
+        >
+          <Box as={AiFillGithub} size="24px" color="gray.900" />
+        </Link>
       </Stack>
     </Stack>
   </>
