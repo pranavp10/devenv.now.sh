@@ -61,7 +61,7 @@ const Code = () => (
           <ListItem>
             Take a look at my{' '}
             <Link
-              href="https://github.com/pranavp10/devenv.now.sh"
+              href="https://github.com/pranavp10/devenv.now.sh/tree/master/gallery/vscode"
               target="_blank"
               rel="noopener noreferrer"
             >

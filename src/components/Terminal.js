@@ -1,9 +1,7 @@
 import {
   Stack,
   Box,
-  Icon,
   Heading,
-  Flex,
   List,
   ListItem,
   ListIcon,
@@ -53,7 +51,7 @@ const Hero = () => (
             I customized it by reading some blogs and watching some videos. Take
             a look at my{' '}
             <Link
-              href="https://github.com/pranavp10/devenv.now.sh"
+              href="https://github.com/pranavp10/devenv.now.sh/tree/master/gallery/Terminal"
               target="_blank"
               rel="noopener noreferrer"
             >
