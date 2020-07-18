@@ -1,5 +1,6 @@
 import { ThemeProvider, CSSReset, ColorModeProvider } from '@chakra-ui/core';
 import { Global, css } from '@emotion/core';
+import PropTypes from 'prop-types';
 import theme from '../theme';
 
 const GlobalStyle = ({ children }) => (
@@ -26,6 +27,9 @@ const GlobalStyle = ({ children }) => (
     {children}
   </>
 );
+GlobalStyle.propTypes = {
+  children: PropTypes.node,
+};
 function MyApp({ Component, pageProps }) {
   return (
     <ThemeProvider theme={theme}>
@@ -37,5 +41,5 @@ function MyApp({ Component, pageProps }) {
     </ThemeProvider>
   );
 }
-
+MyApp.propTypes = { Component: PropTypes.any, pageProps: PropTypes.any };
 export default MyApp;

@@ -6,7 +6,7 @@ import HrefIconLink from './hrefIconLink';
 
 const Who = () => (
   <Flex flexDirection="column" bg="#FBFBFB">
-    <Container>
+    <Container flexDirection="column">
       <Box>
         <Heading as="h1" size="2xl" lineHeight={1} color="gray.900" mb={5}>
           Who Is This
