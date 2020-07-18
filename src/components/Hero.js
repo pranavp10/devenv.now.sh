@@ -5,7 +5,7 @@ import HeroContainer from './HeroContainer';
 const Hero = () => (
   <Flex justifyContent="center" flexDirection="column" bg="#49fcd4">
     <HeroContainer>
-      <Container>
+      <Container flexDirection="column">
         <Box>
           <Heading
             letterSpacing="tight"
