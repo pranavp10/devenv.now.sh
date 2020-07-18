@@ -13,6 +13,7 @@ import SubHeadingText from './SubHeadingText';
 import Terminal from './Terminal';
 import Who from './Who';
 import Why from './Why';
+import SEO from './SEO';
 
 export {
   CheckMark,
@@ -30,4 +31,5 @@ export {
   Terminal,
   Who,
   Why,
+  SEO,
 };
