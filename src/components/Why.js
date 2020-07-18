@@ -6,7 +6,7 @@ import SubHeadingText from './SubHeadingText';
 
 const Why = () => (
   <Flex justifyContent="center" flexDirection="column">
-    <Container>
+    <Container flexDirection="column">
       <Box>
         <Heading as="h1" size="2xl" lineHeight={1} color="gray.900">
           Why

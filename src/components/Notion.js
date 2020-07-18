@@ -5,7 +5,7 @@ import HrefLink from './hrefLink';
 
 const Notion = () => (
   <Flex justifyContent="center" flexDirection="column">
-    <Container>
+    <Container flexDirection="column">
       <Box>
         <Container>
           <Box maxW={400}>
@@ -18,17 +18,16 @@ const Notion = () => (
         <List styleType="disc" color="gray.900" mb={4}>
           <ListItem>
             Its Second brain all the thoughts and all the progress, development
-            and many more will be written in this notes
+            and many more will be written in this notes.
           </ListItem>
           <ListItem>
-            i had all the plans described for building the present website{' '}
-            <b>devenv.now.sh</b>
+            I had all the plans described for building the present website{' '}
+            <b>devenv.now.sh</b>.
           </ListItem>
           <ListItem>
-            i use the mobile version as it is synced when every i open Laptop it
-            will be synced go to this website{' '}
+            I use the mobile version as it is synced when every I open Laptop{' '}
             <HrefLink text="website (Step 7)" link="https://www.notion.so/" />{' '}
-            to read the feature their are hell lots of features
+            to read the feature their are hell lots of features.
           </ListItem>
         </List>
       </Box>

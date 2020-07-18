@@ -10,7 +10,7 @@ import IconLink from './IconLink';
 
 const Terminal = () => (
   <Flex flexDirection="column">
-    <Container>
+    <Container flexDirection="column-reverse">
       <Box maxW={400}>
         <SubHeading text="Terminal" />
         <List styleType="disc" color="gray.900" mb={4}>

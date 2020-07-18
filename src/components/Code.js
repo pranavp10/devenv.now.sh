@@ -8,7 +8,7 @@ import IconLink from './IconLink';
 
 const Code = () => (
   <Flex justifyContent="center" flexDirection="column" bg="#FBFBFB">
-    <Container>
+    <Container flexDirection="column">
       <Box>
         <Container>
           <Box maxW={400}>
@@ -41,10 +41,7 @@ const Code = () => (
         <List ml="35px">
           <IconLink text="VS code" link="https://code.visualstudio.com/" />
         </List>
-        <IconsHeading
-          text="Install Ubuntu on VM (Step 6)"
-          icon={BsCameraVideo}
-        />
+        <IconsHeading text="Change Setting (Step 6)" icon={BsCameraVideo} />
         <List ml="35px">
           <IconLink
             text="You Don't Know About VS Code"

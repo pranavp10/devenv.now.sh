@@ -10,7 +10,7 @@ import Container from './Container';
 
 const OS = () => (
   <Flex justifyContent="center" flexDirection="column" bg="#FBFBFB">
-    <Container>
+    <Container flexDirection="column">
       <Box>
         <Container>
           <Flex direction="column" alignItems="center" ml={[0, 0, 65, 100]}>
@@ -39,7 +39,8 @@ const OS = () => (
             </ListItem>
             <ListItem>
               I wanted <b>One Command Do Everything</b>, I know Command line is
-              not easy by once you understand it, you will never like switching.
+              not easy but once you understand it, you will never feel like
+              switching.
             </ListItem>
             <ListItem>
               Virtual Box is easy to configure and there are features like
@@ -58,10 +59,7 @@ const OS = () => (
             link="https://download.virtualbox.org/virtualbox/6.1.10/VirtualBox-6.1.10-138449-Win.exe"
           />
         </List>
-        <IconsHeading
-          text="Install Ubuntu on VM (Step 2)"
-          icon={BsCameraVideo}
-        />
+        <IconsHeading text="Ubuntu on VM (Step 2)" icon={BsCameraVideo} />
         <List ml="35px">
           <IconLink
             text="Installation"
