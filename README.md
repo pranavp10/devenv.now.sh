@@ -1,7 +1,6 @@
 # devenv.now.sh
 This website will help you to setup the Development environment which will keep all the personal Directory and Development Directory different so that you can work fearlessly and feel like a real Developer.
 ## File Structure
-### src
 ```
 src/
 ┣ components/
