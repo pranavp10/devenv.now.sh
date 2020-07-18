@@ -1,54 +1,24 @@
-import {
-  Stack,
-  Box,
-  Image,
-  Heading,
-  List,
-  ListItem,
-  ListIcon,
-  Link,
-} from '@chakra-ui/core';
-import { BsBoxArrowInDown } from 'react-icons/bs';
+import { Box, Image, List, ListItem, Flex } from '@chakra-ui/core';
+import { BsBoxArrowInDown, BsCameraVideo } from 'react-icons/bs';
+import Container from './Container';
+import SubHeading from './SubHeading';
+import HrefLink from './hrefLink';
+import IconsHeading from './IconsHeading';
+import IconLink from './IconLink';
 
 const Code = () => (
-  <>
-    <Stack
-      as="section"
-      spacing={8}
-      maxWidth="1000px"
-      flexDirection={['column', 'column', 'row', 'row']}
-      justifyContent="space-between"
-      alignItems="center"
-      width="100%"
-      p={8}
-      mt={[0, 0, 8]}
-      mb={[0, 0, 8]}
-      mx="auto"
-    >
+  <Flex justifyContent="center" flexDirection="column" bg="#FBFBFB">
+    <Container>
       <Box>
-        <Stack
-          as="section"
-          spacing={8}
-          maxWidth="1000px"
-          flexDirection={['column', 'column', 'row', 'row']}
-          justifyContent="space-between"
-          alignItems="center"
-          width="100%"
-          p={[0, 0, 8, 8]}
-          mt={[0, 0, 8]}
-          mb={[0, 0, 8]}
-          mx="auto"
-        >
+        <Container>
           <Box maxW={400}>
             <Image src="code.png" alt="showing the pice of the code" />
           </Box>
-        </Stack>
+        </Container>
       </Box>
       <Box maxW={400}>
-        <Heading color="gray.900">
-          Edit {'<'}Code{'/>'}{' '}
-        </Heading>
-        <List styleType="disc" color="gray.900">
+        <SubHeading text="Edit <Code/>" />
+        <List styleType="disc" color="gray.900" mb={4}>
           <ListItem>
             I Use VS Code as an editor as its light weight, as it uses plugin
             system. Installing too many plugin will lead to RAM consumption
@@ -59,40 +29,31 @@ const Code = () => (
           </ListItem>
           <ListItem>
             Take a look at my{' '}
-            <Link
-              href="https://github.com/pranavp10/devenv.now.sh/tree/master/gallery/vscode"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <b>gallery</b>
-            </Link>{' '}
+            <HrefLink
+              text="gallery"
+              link="https://github.com/pranavp10/devenv.now.sh/tree/master/gallery/vscode"
+            />{' '}
             for more images, how it looks and feels to make our life more easier
             and focus on code rather than unwanted things
           </ListItem>
         </List>
-        <Stack isInline mt={3}>
-          <Box as={BsBoxArrowInDown} size="24px" color="gray.800" />
-          <Heading ml={1} size="md" fontWeight="extrabold" color="gray.900">
-            Files Needed
-          </Heading>
-        </Stack>
+        <IconsHeading text="Files Needed (Step 5)" icon={BsBoxArrowInDown} />
         <List ml="35px">
-          <ListItem>
-            <ListIcon icon="link" color="gray.900" />
-            <Link
-              href="https://code.visualstudio.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              color="gray.900"
-            >
-              visual studio code
-            </Link>{' '}
-            <b>(Step 2)</b>
-          </ListItem>
+          <IconLink text="VS code" link="https://code.visualstudio.com/" />
+        </List>
+        <IconsHeading
+          text="Install Ubuntu on VM (Step 6)"
+          icon={BsCameraVideo}
+        />
+        <List ml="35px">
+          <IconLink
+            text="You Don't Know About VS Code"
+            link="https://www.youtube.com/watch?reload=9&v=WHBQ1szkhtI&feature"
+          />
         </List>
       </Box>
-    </Stack>
-  </>
+    </Container>
+  </Flex>
 );
 
 export default Code;
